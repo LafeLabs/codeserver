@@ -1,0 +1,38 @@
+{
+    "html": [
+        "README.md",
+        "codedelete.html",
+        "index.html",
+        "qrcode.html",
+        "readme.html",
+        "scrolleditor.html"
+    ],
+    "data": [
+        "dna.txt"
+    ],
+    "iconsymbols": [
+        "delete.svg",
+        "edit.svg",
+        "home.svg",
+        "lightdark.svg",
+        "scroll.svg"
+    ],
+    "php": [
+        "deletefile.txt",
+        "dir.txt",
+        "dnagenerator.txt",
+        "editor.txt",
+        "fileloader.txt",
+        "filesaver.txt",
+        "replicator.txt",
+        "text2php.txt"
+    ],
+    "code": [
+        "foo.ino",
+        "geometron.js",
+        "javascript.js",
+        "liveplot.py",
+        "plot1.py",
+        "rando.css"
+    ]
+}

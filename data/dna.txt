@@ -2,12 +2,14 @@
     "html": [
         "README.md",
         "codedelete.html",
+        "codeset.html",
         "index.html",
         "qrcode.html",
         "readme.html",
         "scrolleditor.html"
     ],
     "data": [
+        "codeset.txt",
         "dna.txt"
     ],
     "iconsymbols": [
@@ -18,6 +20,7 @@
         "scroll.svg"
     ],
     "php": [
+        "codesetreplicator.txt",
         "deletefile.txt",
         "dir.txt",
         "dnagenerator.txt",

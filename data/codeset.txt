@@ -1,0 +1,10 @@
+{
+    "server": "http://localhost/",
+    "code": [
+        "hello.py",
+        "plot1.py",
+        "rando.css",
+        "test.ino",
+        "testpage.html"
+    ]
+}

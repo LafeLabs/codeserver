@@ -5,6 +5,7 @@ Social coding.  To replicate this, copy the code in the global replicator linked
  - *everything replicates*
  - *everything evolves*
  - *everything dies*
+ - [codeset.html](codeset.html)
  - [code/testpage.html](code/testpage.html)
  - [qrcode.html](qrcode.html)
  - [global replicator code link](https://raw.githubusercontent.com/LafeLabs/codeserver/main/php/replicator.txt)

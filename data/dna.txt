@@ -28,11 +28,10 @@
         "text2php.txt"
     ],
     "code": [
-        "foo.ino",
-        "geometron.js",
-        "javascript.js",
-        "liveplot.py",
+        "hello.py",
         "plot1.py",
-        "rando.css"
+        "rando.css",
+        "test.ino",
+        "testpage.html"
     ]
 }

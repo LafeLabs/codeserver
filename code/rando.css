@@ -1,3 +1,28 @@
+#inputtable{
+    position:absolute;
+    left:10px;
+    top:10px;
+    font-family:courier;
+}
+#newscrollinput{
+    font-family:courier;
+    
+}
+#linktable{
+    position:absolute;
+    right:10px;
+    top:10px;
+    background-color:#808080;
+}
+body{
+
+    
+}
+input{
+    font-family:courier;
+    color:white;
+}
+
 .file{
     cursor:pointer;
     border-radius:0.25em;
@@ -36,4 +61,10 @@
 }
 .button{
     cursor:pointer;
+}
+.button:hover{
+    background-color:green;
+}
+.button:active{
+    background-color:yellow;
 }

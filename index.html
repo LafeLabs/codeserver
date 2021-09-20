@@ -15,6 +15,17 @@ CC0
 <title>Code Server</title>
 </head>
 <body>
+<div id = "arduinoprototype" style = "display:none">
+//name
+void setup() {
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}</div>
 <div id = "prototypescroll" style = "display:none">name
 
 </div>
@@ -48,6 +59,12 @@ CC0
         <td>New Program Name:</td>
         <td><input id = "newscrollinput"/></td>
     </tr>
+    <tr>
+        <td>
+            <a href = "dnagenerator.php">dnagenerator.php</a>
+        </td>
+        <td></td>
+    </tr>
 </table>
 
 <div id="maineditor" contenteditable="true" spellcheck="false"></div>
@@ -59,6 +76,8 @@ CC0
 
 <script>
 prototypescroll = document.getElementById("prototypescroll").innerHTML;
+
+arduinoprototype = document.getElementById("arduinoprototype").innerHTML;
 
 editor = ace.edit("maineditor");
 editor.setTheme("ace/theme/github");
@@ -101,13 +120,7 @@ httpc8.onreadystatechange = function() {
                 httpc.onreadystatechange = function() {
                     if (this.readyState == 4 && this.status == 200) {
                         filedata = this.responseText;
-                        
-                        if(currentFile.substring(currentFile.length-3,currentFile.length) == ".py"){
-                            editor.getSession().setMode("ace/mode/python");
-                        }
-                        if(currentFile.substring(currentFile.length-4,currentFile.length) == ".ino"){
-                            editor.getSession().setMode("ace/mode/java");
-                        }                        
+                        setmode();
                         editor.setValue(filedata);
                         var fileType = currentFile.split("/")[0]; 
                         var fileName = currentFile.split("/")[1];
@@ -149,9 +162,9 @@ document.getElementById("lightdarkbutton").onclick = function(){
     if(lightmode){
 
         editor.setTheme("ace/theme/github");
-        document.body.style.backgroundColor = "#a0a0a0";
+        document.body.style.backgroundColor = "#d0d0d0";
         document.body.style.color = "black";
-        document.getElementById("newscrollinput").style.backgroundColor = "#a0a0a0";
+        document.getElementById("newscrollinput").style.backgroundColor = "#d0d0d0";
         document.getElementById("newscrollinput").style.color = "black";
 
     }
@@ -184,6 +197,9 @@ document.getElementById("newscrollinput").onchange = function(){
             filedata = this.responseText;
             if(filedata.length == 0){
                 scroll = prototypescroll;
+                if(currentFile.substring(currentFile.length-4,currentFile.length) == ".ino"){
+                    scroll = arduinoprototype;
+                }   
                 scroll = scroll.replace(/name/g,name);
                 setmode();
                 editor.setValue(scroll);  
@@ -269,6 +285,9 @@ function setmode(){
 
 </script>
 <style>
+a{
+    color:#ff2cb4;
+}
 #inputtable{
     position:absolute;
     left:10px;

@@ -11,25 +11,21 @@ CC0
 <META NAME="robots" CONTENT="noindex,nofollow">
     <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAP//AP///wANAP8A5Dz6ABueRwAAt/8A6BonABo86AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAREREREREREREREAAAEREREREQCIgREREd3dwAAB3d3d3d3d3d3d3d3d3d3d3d3d3VVVVVVVQAFVVAAVVVQIiBRAiIBEQIAIBECAAERAgAgFgIABmYCIiBmAiIGZgIiIGYCIgZmYCIAaIAAMzMzAAiIiIiIiIiIiIiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
     
+<!--
+ace.js project home:
+https://ace.c9.io/
+
+list of languages:
+https://cloud9-sdk.readme.io/docs/language-mode
+
+
+-->    
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.6/ace.js" type="text/javascript" charset="utf-8"></script>
+
 <title>Code Server</title>
 </head>
 <body>
-<div id = "arduinoprototype" style = "display:none">
-//name
-void setup() {
-  // put your setup code here, to run once:
-
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-
-}</div>
-<div id = "prototypescroll" style = "display:none">name
-
-</div>
-
 <table id = "linktable">
     <tr>
         <td id = "lightdarkbutton"  class = "button">
@@ -75,9 +71,12 @@ void loop() {
 </div>
 
 <script>
-prototypescroll = document.getElementById("prototypescroll").innerHTML;
 
-arduinoprototype = document.getElementById("arduinoprototype").innerHTML;
+prototypescroll = "name";
+arduinoprototype = "//name\nvoid setup(){\n\n}\nvoid loop() {\n\n}\n";
+htmlprototype = "<!doctype html>\n<html>\n<head>\n<title>name</title>\n</head>\n<body>\n</body>\n</html>\n";
+pythonprototype = "# name\n# new python program";
+
 
 editor = ace.edit("maineditor");
 editor.setTheme("ace/theme/github");
@@ -200,6 +199,10 @@ document.getElementById("newscrollinput").onchange = function(){
                 if(currentFile.substring(currentFile.length-4,currentFile.length) == ".ino"){
                     scroll = arduinoprototype;
                 }   
+                if(currentFile.substring(currentFile.length-5,currentFile.length) == ".html"){
+                    scroll = htmlprototype;
+                }   
+                
                 scroll = scroll.replace(/name/g,name);
                 setmode();
                 editor.setValue(scroll);  
@@ -260,6 +263,12 @@ function addcodelink(codename){
 function setmode(){
     if(currentFile.substring(currentFile.length-3,currentFile.length) == ".py"){
         editor.getSession().setMode("ace/mode/python");
+    }
+    if(currentFile.substring(currentFile.length-3,currentFile.length) == ".md"){
+        editor.getSession().setMode("ace/mode/markdown");
+    }
+    if(currentFile.substring(currentFile.length-4,currentFile.length) == ".tex"){
+        editor.getSession().setMode("ace/mode/latex");
     }
     if(currentFile.substring(currentFile.length-3,currentFile.length) == ".js"){
         editor.getSession().setMode("ace/mode/javascript");

@@ -21,11 +21,8 @@ echo json_encode($code,JSON_PRETTY_PRINT);
     
 ?>
 </pre>
-<a href = "index.html">HOME</a>
+<a href = "index.html"><img src = "iconsymbols/home.svg" alt = "home"/></a>
 <style>
-a{
-    font-size:3em;
-}
 body{
     font-size:1em;
     font-family:courier;

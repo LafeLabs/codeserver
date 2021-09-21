@@ -14,6 +14,7 @@ Social coding.  To replicate this, copy the code in the global replicator linked
  - [http://localhost](http://localhost)
  - [../](../)
  - [editor.php](editor.php)
+ - [raw text editor, no javascript libraries](rawtext.html)
  - [replicator.php](replicator.php)
  - [codeserver github repo](https://github.com/LafeLabs/codeserver)
  - [bioweb github repo](https://github.com/LafeLabs/bioweb)

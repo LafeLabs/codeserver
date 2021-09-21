@@ -3,8 +3,10 @@
         "README.md",
         "codedelete.html",
         "codeset.html",
+        "fork.html",
         "index.html",
         "qrcode.html",
+        "rawtext.html",
         "readme.html",
         "scrolleditor.html"
     ],

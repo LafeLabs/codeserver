@@ -2,22 +2,22 @@
 <?php
 
 
-$localscrollsetraw = file_get_contents("data/codeset.txt");
-$localscrollset = json_decode($localscrollsetraw);
+$localcodesetraw = file_get_contents("data/codeset.txt");
+$localcodeset = json_decode($localcodesetraw);
 
-$server = $localscrollset->server;
+$server = $localcodeset->server;
 
-$remotescrollsetraw = file_get_contents($server."data/codeset.txt");
-$remotescrollset = json_decode($remotescrollsetraw);
-$scrolls = $remotescrollset->scrolls;
+$remotecodesetraw = file_get_contents($server."data/codeset.txt");
+$remotecodeset = json_decode($remotecodesetraw);
+$code = $remotecodeset->code;
 
-foreach($scrolls as $value){
+foreach($code as $value){
 
     copy($server."code/".$value,"code/".$value);
 
 }
 
-echo json_encode($scrolls,JSON_PRETTY_PRINT);
+echo json_encode($code,JSON_PRETTY_PRINT);
     
 ?>
 </pre>

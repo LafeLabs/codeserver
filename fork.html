@@ -52,12 +52,15 @@ var httpc2 = new XMLHttpRequest();
     if (this.readyState == 4 && this.status == 200) {
         directories = JSON.parse(this.responseText);
         for(var index = 0;index < directories.length;index++) {
-            var newa = document.createElement("A");
-            newa.innerHTML = directories[index] + "/";
-            newa.href = directories[index] + "/";
-            var newli = document.createElement("LI");
-            newli.appendChild(newa);
-            document.getElementById("mainlist").appendChild(newli);
+            if(directories[index] != "code"){
+                var newa = document.createElement("A");
+                newa.innerHTML = directories[index] + "/";
+                newa.href = directories[index] + "/";
+                var newli = document.createElement("LI");
+                newli.appendChild(newa);
+                document.getElementById("mainlist").appendChild(newli);                
+            }
+
         }
         if(!deleteprotect){
             addDeleteButtons();

@@ -6,7 +6,7 @@ Social coding.  To replicate this, copy the code in the global replicator linked
  - *everything evolves*
  - *everything dies*
  - [codeset.html](codeset.html)
- - [code/testpage.html](code/testpage.html)
+ - [code/](code/)
  - [qrcode.html](qrcode.html)
  - [global replicator code link](https://raw.githubusercontent.com/LafeLabs/codeserver/main/php/replicator.txt)
  - [local replicator code link](php/replicator.txt)
@@ -15,6 +15,7 @@ Social coding.  To replicate this, copy the code in the global replicator linked
  - [../](../)
  - [editor.php](editor.php)
  - [raw text editor, no javascript libraries](rawtext.html)
+ - [fork.html](fork.html)
  - [replicator.php](replicator.php)
  - [codeserver github repo](https://github.com/LafeLabs/codeserver)
  - [bioweb github repo](https://github.com/LafeLabs/bioweb)

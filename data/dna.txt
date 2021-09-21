@@ -29,14 +29,16 @@
         "editor.txt",
         "fileloader.txt",
         "filesaver.txt",
+        "mkdir.txt",
+        "rdelete.txt",
         "replicator.txt",
         "text2php.txt"
     ],
     "code": [
         "hello.py",
+        "index.html",
         "plot1.py",
-        "rando.css",
-        "test.ino",
-        "testpage.html"
+        "sketch.js",
+        "slimezistor.ino"
     ]
 }

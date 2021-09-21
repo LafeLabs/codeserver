@@ -2,18 +2,18 @@
 <?php
 
 
-$localscrollsetraw = file_get_contents("data/scrollset.txt");
+$localscrollsetraw = file_get_contents("data/codeset.txt");
 $localscrollset = json_decode($localscrollsetraw);
 
 $server = $localscrollset->server;
 
-$remotescrollsetraw = file_get_contents($server."data/scrollset.txt");
+$remotescrollsetraw = file_get_contents($server."data/codeset.txt");
 $remotescrollset = json_decode($remotescrollsetraw);
 $scrolls = $remotescrollset->scrolls;
 
 foreach($scrolls as $value){
 
-    copy($server."scrolls/".$value,"scrolls/".$value);
+    copy($server."code/".$value,"code/".$value);
 
 }
 

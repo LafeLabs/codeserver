@@ -25,6 +25,11 @@
             document.getElementById("linkscroll").style.top = (0).toString() + "px";
             
         }
+        else{
+            document.getElementById("linkscroll").style.width = (innerWidth).toString() + "px";
+            document.getElementById("linkscroll").style.left = (30).toString() + "px";
+            document.getElementById("linkscroll").style.top = (innerWidth + 20).toString() + "px";
+        }
         codesquaresize = 100;
         //globalurl = "http://www.trashrobot.org/qrcode.html";
         globalurl = window.location.href;
@@ -48,8 +53,8 @@
         }
         #linkscroll{
             position:absolute;
-            right:0px;
-            bottom:0px;
+            right:10px;
+            bottom:10px;
             overflow:scroll;
             border-left:solid;
             background-color:#a0a0a0;

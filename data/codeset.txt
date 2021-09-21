@@ -2,9 +2,9 @@
     "server": "http://localhost/",
     "code": [
         "hello.py",
+        "index.html",
         "plot1.py",
-        "rando.css",
-        "test.ino",
-        "testpage.html"
+        "sketch.js",
+        "slimezistor.ino"
     ]
 }

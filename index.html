@@ -125,7 +125,7 @@ httpc8.onreadystatechange = function() {
                         editor.setValue(filedata);
                         var fileType = currentFile.split("/")[0]; 
                         var fileName = currentFile.split("/")[1];
-                      
+                        document.getElementById("newscrollinput").value = fileName;
                     }
                 };
                 httpc.open("GET", "fileloader.php?filename=" + currentFile, true);
@@ -250,7 +250,7 @@ function addcodelink(codename){
                 editor.setValue(filedata);
                 var fileType = currentFile.split("/")[0]; 
                 var fileName = currentFile.split("/")[1];
-              
+                document.getElementById("newscrollinput").value = fileName;
             }
         };
         httpc.open("GET", "fileloader.php?filename=" + currentFile, true);

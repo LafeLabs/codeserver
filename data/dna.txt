@@ -23,6 +23,7 @@
     ],
     "php": [
         "codesetreplicator.txt",
+        "copy.txt",
         "deletefile.txt",
         "dir.txt",
         "dnagenerator.txt",

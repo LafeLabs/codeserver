@@ -7,6 +7,7 @@ Social coding.  To replicate this, copy the code in the global replicator linked
  - *everything dies*
  - [codeset.html](codeset.html)
  - [code/](code/)
+ - [code/python.php](code/python.php)
  - [qrcode.html](qrcode.html)
  - [global replicator code link](https://raw.githubusercontent.com/LafeLabs/codeserver/main/php/replicator.txt)
  - [local replicator code link](php/replicator.txt)
@@ -19,10 +20,6 @@ Social coding.  To replicate this, copy the code in the global replicator linked
  - [replicator.php](replicator.php)
  - [codeserver github repo](https://github.com/LafeLabs/codeserver)
  - [bioweb github repo](https://github.com/LafeLabs/bioweb)
- - [copy board server replicator](copy.php?from=https://raw.githubusercontent.com/LafeLabs/boardserver/main/php/replicator.txt&to=replicator.php)
- - [copy bioweb replicator](copy.php?from=https://raw.githubusercontent.com/LafeLabs/bioweb/main/php/replicator.txt&to=replicator.php)
- - [copy full geometron thing replicator](copy.php?from=https://raw.githubusercontent.com/LafeLabs/thing/master/php/replicator.txt&to=replicator.php)
-
 
 
 

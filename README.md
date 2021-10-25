@@ -6,7 +6,9 @@ Social coding: make a program, edit a program, destroy a program, replicate a pr
 
 ## Links
 
+ - [copy javascript code set](copy.php?from=https://raw.githubusercontent.com/LafeLabs/codeserver/main/javascriptset/data/codeset.txt&to=data/codeset.txt)
  - [code/](code/)
+ - [javascriptset/](javascriptset/)
  - [codeset.html](codeset.html)
  - [ipaddress.php](ipaddress.php)
  - [qrcode.html](qrcode.html)

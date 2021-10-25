@@ -1,6 +1,0 @@
-wall.txtfsdfsdfsdf
-
-asdf
-sad
-'
-this is a test of php and html all in the chaos space

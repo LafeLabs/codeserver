@@ -9,7 +9,6 @@ Social coding: make a program, edit a program, destroy a program, replicate a pr
  - [copy javascript code set](copy.php?from=https://raw.githubusercontent.com/LafeLabs/codeserver/main/javascriptset/data/codeset.txt&to=data/codeset.txt)
  - [code/](code/)
  - [javascriptset/](javascriptset/)
- - [phpset/](phpset/)
  - [codeset.html](codeset.html)
  - [ipaddress.php](ipaddress.php)
  - [qrcode.html](qrcode.html)
@@ -20,7 +19,7 @@ Social coding: make a program, edit a program, destroy a program, replicate a pr
  - [home](index.html)
  - [editor.php](editor.php)
  - [dnagenerator.php](dnagenerator.php)
- - [global page replicator code link](https://raw.githubusercontent.com/LafeLabs/codeserver/main/php/replicator.txt)
+ - [global page replicator code link](https://raw.githubusercontent.com/LafeLabs/pi/main/servers/page/php/replicator.txt)
  - [local replicator code link](php/replicator.txt)
  - [replicator.php](replicator.php)
 

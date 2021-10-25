@@ -1,0 +1,24 @@
+{
+    "server": "https://raw.githubusercontent.com/LafeLabs/codeserver/main/phpset/",
+    "code": [
+        "copy.php",
+        "datafile.txt",
+        "delete.php",
+        "dir.php",
+        "dirlinks.php",
+        "explode.php",
+        "fileloader.php",
+        "filesaver.php",
+        "hello.py",
+        "index.html",
+        "index.php",
+        "ipaddress.php",
+        "plot1.py",
+        "python.php",
+        "pythonfile.py",
+        "sketch.html",
+        "sketch.js",
+        "slimezistor.ino",
+        "textfile.txt"
+    ]
+}

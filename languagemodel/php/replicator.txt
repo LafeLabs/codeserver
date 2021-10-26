@@ -1,6 +1,7 @@
 <?php
+//https://raw.githubusercontent.com/LafeLabs/codeserver/main/languagemodel/
 
-$dnaurl = "https://raw.githubusercontent.com/LafeLabs/codeserver/main/data/dna.txt";
+$dnaurl = "https://raw.githubusercontent.com/LafeLabs/codeserver/main/languagemodel/data/dna.txt";
 
 if(isset($_GET["dna"])){
     $dnaurl = $_GET["dna"];
@@ -17,7 +18,7 @@ mkdir("code");
 mkdir("iconsymbols");
 
 
-copy("https://raw.githubusercontent.com/LafeLabs/codeserver/main/php/replicator.txt","replicator.php");
+copy("https://raw.githubusercontent.com/LafeLabs/codeserver/main/languagemodel/php/replicator.txt","replicator.php");
 
 foreach($dna->html as $value){
     

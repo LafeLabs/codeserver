@@ -1,0 +1,13 @@
+{
+    "server": "http://10.0.0.26/languagemodel/codeserver/",
+    "code": [
+        "fileloader.php",
+        "filesaver.php",
+        "index.html",
+        "ngram.txt",
+        "php.py",
+        "python.php",
+        "textin.txt",
+        "textout.txt"
+    ]
+}

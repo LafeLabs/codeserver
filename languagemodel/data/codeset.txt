@@ -1,5 +1,5 @@
 {
-    "server": "http://10.0.0.26/languagemodel/codeserver/",
+    "server": "https://raw.githubusercontent.com/LafeLabs/codeserver/main/languagemodel/",
     "code": [
         "fileloader.php",
         "filesaver.php",

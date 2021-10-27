@@ -1,0 +1,402 @@
+[
+    {
+        "timestamp": 0,
+        "voltage": 203.0018329418668
+    },
+    {
+        "timestamp": 1,
+        "voltage": 195.72635603699533
+    },
+    {
+        "timestamp": 2,
+        "voltage": 193.8978931695027
+    },
+    {
+        "timestamp": 3,
+        "voltage": 193.01510693226098
+    },
+    {
+        "timestamp": 4,
+        "voltage": 190.55107641000268
+    },
+    {
+        "timestamp": 5,
+        "voltage": 180.15435834424807
+    },
+    {
+        "timestamp": 6,
+        "voltage": 185.55198415220855
+    },
+    {
+        "timestamp": 7,
+        "voltage": 179.68654335121568
+    },
+    {
+        "timestamp": 8,
+        "voltage": 178.53168677617722
+    },
+    {
+        "timestamp": 9,
+        "voltage": 176.01176373714443
+    },
+    {
+        "timestamp": 10,
+        "voltage": 165.85200055560657
+    },
+    {
+        "timestamp": 11,
+        "voltage": 172.5859076024938
+    },
+    {
+        "timestamp": 12,
+        "voltage": 167.07080761690932
+    },
+    {
+        "timestamp": 13,
+        "voltage": 165.5013865454553
+    },
+    {
+        "timestamp": 14,
+        "voltage": 168.3312646738518
+    },
+    {
+        "timestamp": 15,
+        "voltage": 161.7032265008302
+    },
+    {
+        "timestamp": 16,
+        "voltage": 155.11752913623133
+    },
+    {
+        "timestamp": 17,
+        "voltage": 158.8847991254456
+    },
+    {
+        "timestamp": 18,
+        "voltage": 153.8192037109359
+    },
+    {
+        "timestamp": 19,
+        "voltage": 155.04636308368526
+    },
+    {
+        "timestamp": 20,
+        "voltage": 153.8831178189652
+    },
+    {
+        "timestamp": 21,
+        "voltage": 152.1821685498705
+    },
+    {
+        "timestamp": 22,
+        "voltage": 151.25679755652524
+    },
+    {
+        "timestamp": 23,
+        "voltage": 145.43933600842695
+    },
+    {
+        "timestamp": 24,
+        "voltage": 143.14464359109587
+    },
+    {
+        "timestamp": 25,
+        "voltage": 144.7399925655018
+    },
+    {
+        "timestamp": 26,
+        "voltage": 140.93455651161918
+    },
+    {
+        "timestamp": 27,
+        "voltage": 145.5215481700925
+    },
+    {
+        "timestamp": 28,
+        "voltage": 136.76509714958618
+    },
+    {
+        "timestamp": 29,
+        "voltage": 141.94547606942174
+    },
+    {
+        "timestamp": 30,
+        "voltage": 139.71561037138497
+    },
+    {
+        "timestamp": 31,
+        "voltage": 136.3581767067275
+    },
+    {
+        "timestamp": 32,
+        "voltage": 135.68662731174203
+    },
+    {
+        "timestamp": 33,
+        "voltage": 129.1967525603899
+    },
+    {
+        "timestamp": 34,
+        "voltage": 131.8766058677749
+    },
+    {
+        "timestamp": 35,
+        "voltage": 132.29638832309072
+    },
+    {
+        "timestamp": 36,
+        "voltage": 128.2019672339478
+    },
+    {
+        "timestamp": 37,
+        "voltage": 125.3788725073372
+    },
+    {
+        "timestamp": 38,
+        "voltage": 129.14254325534344
+    },
+    {
+        "timestamp": 39,
+        "voltage": 122.72970590756503
+    },
+    {
+        "timestamp": 40,
+        "voltage": 128.6829114542562
+    },
+    {
+        "timestamp": 41,
+        "voltage": 125.515220454938
+    },
+    {
+        "timestamp": 42,
+        "voltage": 122.24525213714871
+    },
+    {
+        "timestamp": 43,
+        "voltage": 124.9306300305685
+    },
+    {
+        "timestamp": 44,
+        "voltage": 123.24047415049306
+    },
+    {
+        "timestamp": 45,
+        "voltage": 119.76167953492352
+    },
+    {
+        "timestamp": 46,
+        "voltage": 124.21282883959147
+    },
+    {
+        "timestamp": 47,
+        "voltage": 122.07018369107563
+    },
+    {
+        "timestamp": 48,
+        "voltage": 119.00707231819267
+    },
+    {
+        "timestamp": 49,
+        "voltage": 118.54731292072314
+    },
+    {
+        "timestamp": 50,
+        "voltage": 121.13600708739006
+    },
+    {
+        "timestamp": 51,
+        "voltage": 112.2363585907277
+    },
+    {
+        "timestamp": 52,
+        "voltage": 119.99116554991656
+    },
+    {
+        "timestamp": 53,
+        "voltage": 122.75474700510885
+    },
+    {
+        "timestamp": 54,
+        "voltage": 112.09146892630547
+    },
+    {
+        "timestamp": 55,
+        "voltage": 118.93167454625785
+    },
+    {
+        "timestamp": 56,
+        "voltage": 113.58113051971985
+    },
+    {
+        "timestamp": 57,
+        "voltage": 119.31299682940619
+    },
+    {
+        "timestamp": 58,
+        "voltage": 114.88887497326058
+    },
+    {
+        "timestamp": 59,
+        "voltage": 116.01911696632673
+    },
+    {
+        "timestamp": 60,
+        "voltage": 109.47415441413243
+    },
+    {
+        "timestamp": 61,
+        "voltage": 115.73455839973649
+    },
+    {
+        "timestamp": 62,
+        "voltage": 113.04503158115125
+    },
+    {
+        "timestamp": 63,
+        "voltage": 115.17697700673736
+    },
+    {
+        "timestamp": 64,
+        "voltage": 109.17728841163863
+    },
+    {
+        "timestamp": 65,
+        "voltage": 110.41050329878502
+    },
+    {
+        "timestamp": 66,
+        "voltage": 111.50731679974737
+    },
+    {
+        "timestamp": 67,
+        "voltage": 109.64563278481423
+    },
+    {
+        "timestamp": 68,
+        "voltage": 109.97428992067428
+    },
+    {
+        "timestamp": 69,
+        "voltage": 114.34141791966456
+    },
+    {
+        "timestamp": 70,
+        "voltage": 108.08242460401797
+    },
+    {
+        "timestamp": 71,
+        "voltage": 112.38973203088233
+    },
+    {
+        "timestamp": 72,
+        "voltage": 108.34693482604628
+    },
+    {
+        "timestamp": 73,
+        "voltage": 104.51106698788607
+    },
+    {
+        "timestamp": 74,
+        "voltage": 107.7233742923041
+    },
+    {
+        "timestamp": 75,
+        "voltage": 106.6830792931614
+    },
+    {
+        "timestamp": 76,
+        "voltage": 104.66657899251963
+    },
+    {
+        "timestamp": 77,
+        "voltage": 110.05078374103363
+    },
+    {
+        "timestamp": 78,
+        "voltage": 106.9180976651925
+    },
+    {
+        "timestamp": 79,
+        "voltage": 110.62986761889258
+    },
+    {
+        "timestamp": 80,
+        "voltage": 108.9807172138767
+    },
+    {
+        "timestamp": 81,
+        "voltage": 111.69943581221719
+    },
+    {
+        "timestamp": 82,
+        "voltage": 111.15541030254923
+    },
+    {
+        "timestamp": 83,
+        "voltage": 107.72156701218748
+    },
+    {
+        "timestamp": 84,
+        "voltage": 107.07998429355115
+    },
+    {
+        "timestamp": 85,
+        "voltage": 106.70513209575455
+    },
+    {
+        "timestamp": 86,
+        "voltage": 101.83527932793159
+    },
+    {
+        "timestamp": 87,
+        "voltage": 102.80791102600537
+    },
+    {
+        "timestamp": 88,
+        "voltage": 103.14704053531152
+    },
+    {
+        "timestamp": 89,
+        "voltage": 102.1496245059005
+    },
+    {
+        "timestamp": 90,
+        "voltage": 103.10223030760444
+    },
+    {
+        "timestamp": 91,
+        "voltage": 107.82075970306519
+    },
+    {
+        "timestamp": 92,
+        "voltage": 104.88429309772059
+    },
+    {
+        "timestamp": 93,
+        "voltage": 105.059553019605
+    },
+    {
+        "timestamp": 94,
+        "voltage": 105.33897297411539
+    },
+    {
+        "timestamp": 95,
+        "voltage": 102.32428725007821
+    },
+    {
+        "timestamp": 96,
+        "voltage": 102.85161401483163
+    },
+    {
+        "timestamp": 97,
+        "voltage": 99.36357303659528
+    },
+    {
+        "timestamp": 98,
+        "voltage": 101.63908668672083
+    },
+    {
+        "timestamp": 99,
+        "voltage": 104.78390682453453
+    }
+]

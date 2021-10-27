@@ -6,8 +6,6 @@ Social coding: make a program, edit a program, destroy a program, replicate a pr
 
 ## Links
 
- - [languagemodel/](languagemodel/)
- - [matplotlib/](matplotlib/)
  - [copy javascript code set](copy.php?from=https://raw.githubusercontent.com/LafeLabs/codeserver/main/javascriptset/data/codeset.txt&to=data/codeset.txt)
  - [code/](code/)
  - [javascriptset/](javascriptset/)

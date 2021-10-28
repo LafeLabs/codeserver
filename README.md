@@ -1,8 +1,60 @@
 ## [../](../)
 
-# Code Server
+# Community Networking Developers
 
-Social coding: make a program, edit a program, destroy a program, replicate a program.
+## Introduction
+
+In order to build a truly decentralized network, we need to train millions of developers who are trained to work with the entire technological system and make it their own, in their local community, independent of any central technology resource or organization.  To do that we need web developer education which is totally decentralized, where we train people who train people and we spread web developer skills as an organic media process.  This code server exists to be a starting place for that.
+
+Community networking rests on a large number of people being able to work fluently with the languages which make the World Wide Web work.  The Web is not the Internet.  The Internet is the system by which communication devices all connect with one another.  The Web is the system by which actual documents are displayed in Web Browsers. This is based on open standards which can be freely used and copied by anyone.  
+
+Making web documents does not even require the Internet, it's just formatting, like a Microsoft Word document.  All web browsers take as input HTML, which stands for Hyper Text Markup Language.  Hypertext refers to the way that web documents contain links to other documents, making the whole Web into a "hyper document" which can connect an infinite network of interconnected documents(the World Wide Web).
+
+The "Open Web" refers to all the HTML documents which are directly visible to everyone on the web, who can simply point a browser to the file to see it.  The Open Web has in the last few years been eclipsed in power by a very small group of bad actors like Facebook, and has been deliberately broken by the "app stores" of the two cell phone platform monopolies.  But the Open Web still exists, and is easier to create things on than ever, in spite of the best efforts of the bad actors from the West Coast of the United States.  
+
+The languages we will use in the system presented here include HTML for making web documents, JavaScript for making scripts in web documents, CSS for formatting web documents, PHP for connecting web documents with files on a web server, JSON for storing information in a simple format both humans and machines can read, python for scientific computing, Arduino for controlling hardware, and Geometron for making graphics and controlling art robots for fabricating physical things.
+
+## HTML
+
+HTML consists of text, along with various "tags" which refer to "elements" which tell computers how to make things other than pure text appear on the screen, as well as how to format that text.  These elements include images, links, various elements for organizing information, scripts which do things, style elements which format things, and various typical text formatting elements like bold face, headings, bulleted lists, and numbered lists and so on.
+
+By far the best resource for starting from scratch with HTML is the tutorials on [w3schools.com](https://www.w3schools.com/).  The reference which can be full of annoying jargon and has a lack of good examples but is more complete is the [Mozilla Developers Network(MDN)](https://developer.mozilla.org/en-US/).  The best place to see nice little examples of clever things with HTML/CSS/JavaScript is [codepen,io](https://codepen.io/), which is used by many developers to showcase their cleverest and most beautiful creations.
+
+We start learning HTML by immediately diving into the code server.  To create your own code server, set up a Raspberry Pi  according to the instructions, and make a code server on it forked down from the main page.
+
+Every web page starts out with a file called index.html, which web browsers look for first before loading any other file.  To make a web page we simple edit the contents of index.html and put it in the right place.  Any file like this can be placed on any web server, and it will then be viewable as a web page from anywhere that can see that server.  Just copy and pasting index.html files can be used to immediately start publishing documents to the Open Web.  
+
+We begin by editing the example index.html file in the server, then learn to navigate the server.
+
+[go back to server](index.html)
+
+Click the scroll icon link to get back to this README file.
+
+
+## Resources
+
+ - w3schools
+ - codepen
+ - github
+ - mdn
+ - developer tools in the browsers
+ - looking at the source
+ - php main page
+ - adafruit
+ - raspberry pi
+ - favicon.cc
+
+
+## Using the code server
+
+ - create a program
+ - destroy a program
+ - create and replicate code sets
+ - fork servers, copy servers
+ - fork and replicate servers through github
+
+
+
 
 ## Links
 

@@ -2,6 +2,14 @@
 
 # Community Networking Developers
 
+## To Do:
+
+Add DETAILED comments to EVERY program
+
+add full replication description, add detailed howto for running the server and replicating it, hacking it.
+
+connect to rest of the system in a self-contained SRS
+
 ## Introduction
 
 In order to build a truly decentralized network, we need to train millions of developers who are trained to work with the entire technological system and make it their own, in their local community, independent of any central technology resource or organization.  To do that we need web developer education which is totally decentralized, where we train people who train people and we spread web developer skills as an organic media process.  This code server exists to be a starting place for that.
@@ -29,6 +37,68 @@ We begin by editing the example index.html file in the server, then learn to nav
 [go back to server](index.html)
 
 Click the scroll icon link to get back to this README file.
+
+[code/index.html](code/index.html)
+
+### CSS Files and HTML files referencing them
+
+ - [code/css.html](code/css.html)
+ - [code/body.css](code/body.css)
+ - [code/aspectratio.css](code/aspectratio.css)
+ - [code/scroll.css](code/scroll.css)
+ - [code/classes.css](code/classes.css)
+ - [code/box.css](code/box.css)
+
+### JavaScript Files and HTML which reference them
+
+ - [code/bitwise.html](code/bitwise.html)
+ - [code/boolean.html](code/boolean.html)
+ - [code/button.html](code/button.html)
+ - [code/doubler.html](code/doubler.html)
+ - [code/energy.html](code/energy.html)
+ - [code/hello.html](code/hello.html)
+ - [code/input.html](code/input.html)
+ - [code/example.html](code/example.html)
+ - [code/strings.html](code/strings.html)
+ - [code/table.html](code/table.html)
+ - [code/ace.html](code/ace.html)
+ - [code/math.html](code/math.html)
+ - [code/mathjax.html](code/mathjax.html)
+ - [code/geometron.html](code/geometron.html)
+ - [code/geometron.js](code/geometron.js)
+ - [code/hammer.html](code/hammer.html)
+ - [code/map.html](code/map.html)
+ - [code/mapfactory.js](code/mapfactory.js)
+ - [code/qrcode.html](code/qrcode.html)
+ - [code/scroll.html](code/scroll.html)
+ - [code/sketch.html](code/sketch.html)
+ - [code/sketch.js](code/sketch.js)
+
+### HTML which uses PHP
+
+ - [code/dir.html](code/dir.html)
+ - [code/wall.html](code/wall.html)
+ - [code/ipaddress.php](code/ipaddress.php)
+
+
+### Python/PHP communications
+
+ - python hello world file write
+ - language model
+ - matplotlib
+ - arduino serial readout
+
+### Arduino basics
+
+ - neopixel
+ - knob,button, pwm
+ - send data in json to serial to python which saves, loads
+ - trash robot generic stepper xyz
+ - trash robot standard printer
+ - trash robot generic dc motor movement
+ - slimezistor with json output or real time plot output
+ - accelerometer raw plots
+
 
 
 ## Resources

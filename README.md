@@ -10,6 +10,34 @@ add full replication description, add detailed howto for running the server and 
 
 connect to rest of the system in a self-contained SRS
 
+## SRS elements:
+
+ - scroll server
+ - code server
+ - full geometron server
+ - symbol factory
+ - map server
+ - coin server
+ - robot factory
+ - flags
+ - bags
+ - coins and coin replicators
+ - domain names
+ - raspberry pi solar powered terminal with bag, fully mobile system
+ - home raspberry pi web server with port forwarding
+ - printer robot
+ - generic 12 volt robot which controls random stepper motors as a demo, with a raspberry pi based programming interface using geometron
+ - neopixel strips 
+ - tape snakes
+ - art boxes
+ - trash robot pants, shirts, hats, etc
+ - geometron book
+ - trash magic boock
+ - arduino slimezistor probe
+
+
+
+
 ## Introduction
 
 In order to build a truly decentralized network, we need to train millions of developers who are trained to work with the entire technological system and make it their own, in their local community, independent of any central technology resource or organization.  To do that we need web developer education which is totally decentralized, where we train people who train people and we spread web developer skills as an organic media process.  This code server exists to be a starting place for that.

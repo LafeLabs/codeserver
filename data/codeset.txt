@@ -1,5 +1,5 @@
 {
-    "server": "https://raw.githubusercontent.com/LafeLabs/pi/main/learnjavascript/codeserver/",
+    "server": "https://raw.githubusercontent.com/LafeLabs/codeserver/main/",
     "code": [
         "ace.html",
         "aspectratio.css",
@@ -26,7 +26,6 @@
         "index.html",
         "input.html",
         "ipaddress.php",
-        "list.html",
         "map.html",
         "mapfactory.js",
         "math.html",

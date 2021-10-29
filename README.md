@@ -1,48 +1,14 @@
 ## [../](../)
 
+## [Global Replicator](https://raw.githubusercontent.com/LafeLabs/codeserver/main/php/replicator.txt)
+
 # [Code Server](https://github.com/LafeLabs/codeserver)
 
-# Web Developer Training for Community Networking
-
-## To Do:
-
-Add DETAILED comments to EVERY program
-
-add full replication description, add detailed howto for running the server and replicating it, hacking it.
-
-connect to rest of the system in a self-contained SRS
-
-## SRS elements:
-
- - scroll server
- - code server
- - full geometron server
- - symbol factory
- - map server
- - coin server
- - robot factory
- - flags
- - bags
- - coins and coin replicators
- - domain names
- - raspberry pi solar powered terminal with bag, fully mobile system
- - home raspberry pi web server with port forwarding
- - printer robot
- - generic 12 volt robot which controls random stepper motors as a demo, with a raspberry pi based programming interface using geometron
- - neopixel strips 
- - tape snakes
- - art boxes
- - trash robot pants, shirts, hats, etc
- - geometron book
- - trash magic boock
- - arduino slimezistor probe
-
-
-
+# Learn to Create Web Pages
 
 ## Introduction
 
-In order to build a truly decentralized network, we need to train millions of developers who are trained to work with the entire technological system and make it their own, in their local community, independent of any central technology resource or organization.  To do that we need web developer education which is totally decentralized, where we train people who train people and we spread web developer skills as an organic media process.  This code server exists to be a starting place for that.
+We aim to provide free sharing of documents for all people everywhere.  To do this, we will build free web servers run on free wireless networks.  All the web pages in this system must be maintained by local members of the community for them to have control.  This set of documents exists to guide new people through the process of learning how to create web pages for their community, as well as to train the next generation of people as our swarm grows.  We call this "community networking".  We will need to train 10's of millions of people to each run their own servers in order to serve free community networking to all of humanity.
 
 Community networking rests on a large number of people being able to work fluently with the languages which make the World Wide Web work.  The Web is not the Internet.  The Internet is the system by which communication devices all connect with one another.  The Web is the system by which actual documents are displayed in Web Browsers. This is based on open standards which can be freely used and copied by anyone.  
 

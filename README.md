@@ -1,6 +1,8 @@
 ## [../](../)
 
-# Community Networking Developers
+# [Code Server](https://github.com/LafeLabs/codeserver)
+
+# Web Developer Training for Community Networking
 
 ## To Do:
 
@@ -172,7 +174,7 @@ Click the scroll icon link to get back to this README file.
  - [home](index.html)
  - [editor.php](editor.php)
  - [dnagenerator.php](dnagenerator.php)
- - [global page replicator code link](https://raw.githubusercontent.com/LafeLabs/codeserver/main/php/replicator.txt)
+ - [global code server replicator code link](https://raw.githubusercontent.com/LafeLabs/codeserver/main/php/replicator.txt)
  - [local replicator code link](php/replicator.txt)
  - [replicator.php](replicator.php)
 
